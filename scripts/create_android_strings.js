@@ -147,7 +147,7 @@ function getLocalizationDir(context, lang) {
 
     var langDir;
     switch (lang) {
-        case "en":
+        case "fr":
             langDir = path.normalize(path.join(getResPath(context), 'values'));
             break;
         default:
@@ -162,7 +162,7 @@ function getLocalStringXmlPath(context, lang) {
 
     var filePath;
     switch (lang) {
-        case "en":
+        case "fr":
             filePath = path.normalize(path.join(getResPath(context), 'values/strings.xml'));
             break;
         default:
